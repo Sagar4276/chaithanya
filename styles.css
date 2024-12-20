@@ -1,0 +1,79 @@
+/* General Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light gray background */
+    color: #333; /* Dark text color */
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 60%;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white; /* Plain white background */
+    border: 1px solid #ddd; /* Light border */
+    box-shadow: none; /* Removed shadow for a more subtle appearance */
+}
+
+h1 {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    font-size: 14px;
+    margin: 10px 0 5px;
+}
+
+input {
+    padding: 8px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc; /* Light gray border */
+    border-radius: 3px; /* Slight rounding of corners */
+    font-size: 14px;
+}
+
+button {
+    padding: 10px;
+    background-color: #e0e0e0; /* Light gray button */
+    color: #333; /* Dark text */
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+button:hover {
+    background-color: #ccc; /* Slightly darker gray on hover */
+}
+
+/* Result Display */
+.result {
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    background-color: #f0f0f0; /* Light gray background */
+    border: 1px solid #ddd; /* Light border */
+    border-radius: 3px;
+}
+
+.result h2 {
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.result p {
+    font-size: 14px;
+    margin: 5px 0;
+}
+
+.result span {
+    font-weight: normal; /* Removed bold text for a simpler look */
+}
